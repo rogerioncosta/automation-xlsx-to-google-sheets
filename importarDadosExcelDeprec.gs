@@ -6,7 +6,7 @@ function importarDadosExcel_depreciado() {
   planilhaDestino.getRange("I1").setValue("📂 Iniciando o processo...");
   SpreadsheetApp.flush(); // Força a atualização da planilha
 
-  var pastaID = "1mcJKqLVGMZ6T55V1gEs-8uEw5migX4AZ"; // ID da pasta no Google Drive
+  var pastaID = "ID-da-pasta-no-GoogleDrive"; // ID da pasta no Google Drive
   var pasta = DriveApp.getFolderById(pastaID);
   var arquivos = pasta.getFiles();
   var totalArquivos = 0;
