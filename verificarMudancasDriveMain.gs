@@ -1,7 +1,7 @@
 function verificarMudancasNoDrive() {
   var planilhaDestino = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Lista Coletas Noroeste");
 
-  var pastaID = "1mcJKqLVGMZ6T55V1gEs-8uEw5migX4AZ"; // ID da pasta no Google Drive
+  var pastaID = "ID-da-pasta-no-GoogleDrive"; // ID da pasta no Google Drive
   var pasta = DriveApp.getFolderById(pastaID);
   
   var arquivos = pasta.getFiles();
